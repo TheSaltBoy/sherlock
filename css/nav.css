@@ -1,0 +1,41 @@
+.nav {
+    font-size: 16px;
+    width: 50%;
+    margin: 5vh auto 5vh auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.headline {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.headline h2 {
+    font-size: 56.34px;
+    font-family: 'Playfair Display', serif;
+}
+
+.headline h1 {
+    font-size: 92.62px;
+    font-family: 'Playfair Display';
+    margin: -25px 10px 0 10px;
+}
+
+nav>ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    margin: 5vh 0 5vh 0;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 50px 0 50px;
+}
+
+li a:hover {
+    color: #ba2847;
+}
