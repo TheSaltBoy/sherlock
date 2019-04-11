@@ -115,3 +115,48 @@ hr {
 .i {
     font-style: italic;
 }
+
+.map {
+    width: 100%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.6);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 6% auto;
+    padding: 30px;
+    width: 23%;
+    font-size: 16px;
+    font-family: 'Cardo', serif;
+  }
+
+  .modal-content>h1 {
+    font-size: 2.3em;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .close {
+    color: black;
+    float: right;
+    font-size: 2.7em;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
